@@ -1,0 +1,8 @@
+ssh -i "C:\Users\Odil\Downloads\finalodil.pem" ubuntu@ec2-18-136-202-43.ap-southeast-1.compute.amazonaws.com
+mkdir fantasy_project
+cd fantasy_project
+nano fantasy.py
+source venv/bin/activate
+pip3 install --upgrade pip
+pip3 install flask psycopg2-binary
+python fantasy.py
